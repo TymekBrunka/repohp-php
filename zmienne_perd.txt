@@ -1,0 +1,6 @@
+__FILE__
+__DIR__
+itp.
+
+Stałe predefiniowaneW  języku  PHP  istnieje  grupa  stałych  predefiniowanych,  które  towarzyszą  każdemu  uruchamianemu skryptowi. Część z nich jest dostępna dzięki różnym rozszerzeniom i  można  z  nich  korzystać,  gdy  te  rozszerzenia  zostały  wczytane.  Przykładowe  stałe  predefiniowane to:qTRUE — stała zawierająca logiczną wartość prawdy,qFALSE — stała zawierająca logiczną wartość fałszu,qPHP_VERSION — stała reprezentująca aktualnie używaną wersję parsera PHP,qPHP_OS — stała zawierająca nazwę systemu operacyjnego, na którym uruchamiany jest parser PHP.Istnieje grupa tak zwanych magicznych stałych, które zmieniają się w zależności od miejsca ich użycia. Należą do nich:q__FILE__  —  stała  zawierająca  nazwę  pliku  ze  skryptem,  który  jest  aktualnie  przetwarzany,q__LINE__ — stała zawierająca numer linii w skrypcie, która aktualnie jest prze-twarzana,q__DIR__ — stała zawierająca nazwę katalogu pliku,q__FUNCTION__ — stała zawierająca nazwę funkcji,
+188Rozdział 6.tJęzyk PHPq__CLASS__ — stała zawierająca nazwę klasy,q__METHOD__ — stała zawierająca nazwę metody

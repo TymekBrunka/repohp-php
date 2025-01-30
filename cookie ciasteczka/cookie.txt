@@ -1,0 +1,22 @@
+Tworzenie pliku cookie
+W skryptach PHP pliki cookies tworzone są za pomocą funkcji setcookie(), która
+ma postać:
+
+setcookie(nazwa[, wartość[, czas_trwania[, ścieżka_dostępu[, domena[, bezpieczeństwo[, tylko_http]]]]]])
+
+Argumenty funkcji to:
+q nazwa — nazwa pliku cookie.
+q wartość — wartość, która będzie przechowana w pliku cookie.
+q czas_trwania — czas, po jakim plik cookie zostanie usunięty przez przeglądarkę.
+Jest on podawany jako liczba sekund, które upłyną od 1 stycznia 1970 roku.
+q ścieżka_dostępu — ścieżka dostępu na serwerze dla pliku cookie. Ustawienie
+tej wartości na / spowoduje, że plik cookie będzie dostępny w całej domenie.
+Ustawienie /www/skrypty sprawi, że plik będzie dostępny w podanym katalogu
+oraz w katalogach podrzędnych.
+q domena — domena, w której plik cookie będzie dostępny
+q bezpieczeństwo — może przyjmować wartość true lub false. Ustawienie
+true spowoduje, że plik cookie będzie mógł być przesyłany tylko przez bezpieczne
+połączenia HTTPS. Domyślnym ustawieniem jest false.
+q tylko_http — może przyjmować wartość true lub false. Ustawienie true
+spowoduje, że plik cookie będzie dostępny tylko przez protokół HTTP i nie będzie
+dostępny z poziomu skryptów osadzonych na stronie.

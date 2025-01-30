@@ -1,0 +1,6 @@
+- sort() — sortuje elementy tablicy indeksowanej w kolejności od najmniejszego do największego.
+- rsort() — sortuje elementy tablicy indeksowanej w kolejności od największego do najmniejszego.
+- asort() — sortuje elementy tablicy asocjacyjnej według zawartości, w kolejności od najmniejszego do największego.
+- arsort() — sortuje elementy tablicy asocjacyjnej według zawartości, w kolejności od największego do najmniejszego.
+- ksort() — sortuje elementy tablicy asocjacyjnej według klucza, w kolejności od najmniejszego do największego.
+- krsort() — sortuje elementy tablicy asocjacyjnej według klucza, w kolejności od największego do najmniejszego.

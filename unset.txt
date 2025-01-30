@@ -1,0 +1,2 @@
+unset(zmienna);
+unset($_SESSION['cos'])
