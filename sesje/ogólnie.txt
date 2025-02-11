@@ -1,0 +1,11 @@
+session_start();
+session_destroy();
+session_id(); // zwraca id sesji
+
+session_unset() lub unset($_SESSION['nazwa_zmiennej']) - pierwsze działa na wszystkich - usuwa zmienne z sesji (ponieważ normalnie pozostają po jej usunięciu)
+
+
+if (!isset($_SESSION['ile'])) {
+    $_SESSION['ile'] = 0;
+}
+$_SESSION['ile']++;
